@@ -1,0 +1,6 @@
+framework module XTComponentSocket {
+  umbrella header "XTComponentSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
