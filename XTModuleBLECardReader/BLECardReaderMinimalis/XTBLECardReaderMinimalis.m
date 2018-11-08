@@ -216,12 +216,12 @@ static id _instace;
             return;
         }
         
-        if ([model.thisMoney intValue] != 0) {
-            if (self.rechargeFailure) {
-                self.rechargeFailure([NSError errorWithDomain:@"错误" code:110 userInfo:@{@"NSLocalizedDescription": @"请先刷表"}]);
-            }
-            return;
-        }
+//        if ([model.thisMoney intValue] != 0) {
+//            if (self.rechargeFailure) {
+//                self.rechargeFailure([NSError errorWithDomain:@"错误" code:110 userInfo:@{@"NSLocalizedDescription": @"请先刷表"}]);
+//            }
+//            return;
+//        }
         
         _valWay = model.valWay;
         //2.开始充值

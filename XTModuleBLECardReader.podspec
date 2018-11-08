@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XTModuleBLECardReader'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'XTModuleBLECardReader.描述'
 
 # This description is used to generate tags and improve search results.
@@ -62,5 +62,5 @@ s.vendored_libraries = 'XTModuleBLECardReader/LocalDependency/**.a'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'XTComponentSocket', '~> 1.0.3'
+  s.dependency 'XTComponentSocket', '~> 1.0.4'
 end
