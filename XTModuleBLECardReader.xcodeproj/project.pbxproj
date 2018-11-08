@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18BBC5EE21942C54002D62F6 /* XTModuleBLECardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5EC21942C54002D62F6 /* XTModuleBLECardReader.h */; };
+		18BBC5EE21942C54002D62F6 /* XTModuleBLECardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5EC21942C54002D62F6 /* XTModuleBLECardReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBC60021942D52002D62F6 /* decardiccreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F121942D52002D62F6 /* decardiccreader.h */; };
 		18BBC60121942D52002D62F6 /* iccreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F221942D52002D62F6 /* iccreader.h */; };
 		18BBC60221942D52002D62F6 /* libbleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BBC5F321942D52002D62F6 /* libbleLib.a */; };
-		18BBC60321942D52002D62F6 /* XTSocketManager+BLECardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F521942D52002D62F6 /* XTSocketManager+BLECardReader.h */; };
+		18BBC60321942D52002D62F6 /* XTSocketManager+BLECardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F521942D52002D62F6 /* XTSocketManager+BLECardReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBC60421942D52002D62F6 /* XTSocketManager+BLECardReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC5F621942D52002D62F6 /* XTSocketManager+BLECardReader.m */; };
-		18BBC60521942D52002D62F6 /* XTBLECardReaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F821942D52002D62F6 /* XTBLECardReaderManager.h */; };
+		18BBC60521942D52002D62F6 /* XTBLECardReaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F821942D52002D62F6 /* XTBLECardReaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBC60621942D52002D62F6 /* XTBLECardReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC5F921942D52002D62F6 /* XTBLECardReaderManager.m */; };
 		18BBC60721942D52002D62F6 /* XTBLECardReaderMinimalis.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5FB21942D52002D62F6 /* XTBLECardReaderMinimalis.h */; };
 		18BBC60821942D52002D62F6 /* XTBLECardReaderMinimalis.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC5FC21942D52002D62F6 /* XTBLECardReaderMinimalis.m */; };
-		18BBC60921942D52002D62F6 /* XTBlueCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5FE21942D52002D62F6 /* XTBlueCardInfo.h */; };
+		18BBC60921942D52002D62F6 /* XTBlueCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5FE21942D52002D62F6 /* XTBlueCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBC60A21942D52002D62F6 /* XTBlueCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC5FF21942D52002D62F6 /* XTBlueCardInfo.m */; };
 		18BBC60D21942E00002D62F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18BBC60B21942E00002D62F6 /* LICENSE */; };
 		18BBC60E21942E00002D62F6 /* XTModuleBLECardReader.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18BBC60C21942E00002D62F6 /* XTModuleBLECardReader.podspec */; };
@@ -41,7 +41,7 @@
 		18BBC5FE21942D52002D62F6 /* XTBlueCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBlueCardInfo.h; sourceTree = "<group>"; };
 		18BBC5FF21942D52002D62F6 /* XTBlueCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBlueCardInfo.m; sourceTree = "<group>"; };
 		18BBC60B21942E00002D62F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		18BBC60C21942E00002D62F6 /* XTModuleBLECardReader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XTModuleBLECardReader.podspec; sourceTree = "<group>"; };
+		18BBC60C21942E00002D62F6 /* XTModuleBLECardReader.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XTModuleBLECardReader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C216DB3E2A49B36661A71077 /* Pods_XTModuleBLECardReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTModuleBLECardReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCFC820C65906C89CBD71D5 /* Pods-XTModuleBLECardReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTModuleBLECardReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTModuleBLECardReader/Pods-XTModuleBLECardReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,11 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BBC60521942D52002D62F6 /* XTBLECardReaderManager.h in Headers */,
-				18BBC60021942D52002D62F6 /* decardiccreader.h in Headers */,
-				18BBC60721942D52002D62F6 /* XTBLECardReaderMinimalis.h in Headers */,
 				18BBC60321942D52002D62F6 /* XTSocketManager+BLECardReader.h in Headers */,
 				18BBC5EE21942C54002D62F6 /* XTModuleBLECardReader.h in Headers */,
 				18BBC60921942D52002D62F6 /* XTBlueCardInfo.h in Headers */,
+				18BBC60721942D52002D62F6 /* XTBLECardReaderMinimalis.h in Headers */,
+				18BBC60021942D52002D62F6 /* decardiccreader.h in Headers */,
 				18BBC60121942D52002D62F6 /* iccreader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +396,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C0B31CE637C59EB229969F5 /* Pods-XTModuleBLECardReader.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
@@ -415,10 +418,18 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XTModuleBLECardReader/LocalDependency",
+					"$(PROJECT_DIR)/XTModuleBLECardReader/LocalDependency/**",
 				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"XTComponentSocket\"",
+					"-framework",
+					"\"XTComponentUtils\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = suntront.com.cn.XTModuleBLECardReader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -430,7 +441,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EDCFC820C65906C89CBD71D5 /* Pods-XTModuleBLECardReader.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
@@ -449,10 +463,18 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XTModuleBLECardReader/LocalDependency",
+					"$(PROJECT_DIR)/XTModuleBLECardReader/LocalDependency/**",
 				);
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"XTComponentSocket\"",
+					"-framework",
+					"\"XTComponentUtils\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = suntront.com.cn.XTModuleBLECardReader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
