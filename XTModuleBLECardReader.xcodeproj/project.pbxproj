@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18BBC5EE21942C54002D62F6 /* XTModuleBLECardReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5EC21942C54002D62F6 /* XTModuleBLECardReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBC60021942D52002D62F6 /* decardiccreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F121942D52002D62F6 /* decardiccreader.h */; };
 		18BBC60121942D52002D62F6 /* iccreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BBC5F221942D52002D62F6 /* iccreader.h */; };
 		18BBC60221942D52002D62F6 /* libbleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BBC5F321942D52002D62F6 /* libbleLib.a */; };
@@ -28,7 +27,6 @@
 		0C0B31CE637C59EB229969F5 /* Pods-XTModuleBLECardReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTModuleBLECardReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTModuleBLECardReader/Pods-XTModuleBLECardReader.debug.xcconfig"; sourceTree = "<group>"; };
 		18BBC5E121942C1C002D62F6 /* XTModuleBLECardReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTModuleBLECardReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BBC5E521942C1C002D62F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18BBC5EC21942C54002D62F6 /* XTModuleBLECardReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XTModuleBLECardReader.h; sourceTree = "<group>"; };
 		18BBC5F121942D52002D62F6 /* decardiccreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decardiccreader.h; sourceTree = "<group>"; };
 		18BBC5F221942D52002D62F6 /* iccreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iccreader.h; sourceTree = "<group>"; };
 		18BBC5F321942D52002D62F6 /* libbleLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbleLib.a; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 		18BBC5E321942C1C002D62F6 /* XTModuleBLECardReader */ = {
 			isa = PBXGroup;
 			children = (
-				18BBC5EC21942C54002D62F6 /* XTModuleBLECardReader.h */,
 				18BBC5F721942D52002D62F6 /* BLECardReader */,
 				18BBC5FA21942D52002D62F6 /* BLECardReaderMinimalis */,
 				18BBC5F021942D52002D62F6 /* LocalDependency */,
@@ -165,7 +162,6 @@
 			files = (
 				18BBC60521942D52002D62F6 /* XTBLECardReaderManager.h in Headers */,
 				18BBC60321942D52002D62F6 /* XTSocketManager+BLECardReader.h in Headers */,
-				18BBC5EE21942C54002D62F6 /* XTModuleBLECardReader.h in Headers */,
 				18BBC60921942D52002D62F6 /* XTBlueCardInfo.h in Headers */,
 				18BBC60721942D52002D62F6 /* XTBLECardReaderMinimalis.h in Headers */,
 				18BBC60021942D52002D62F6 /* decardiccreader.h in Headers */,
