@@ -396,10 +396,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C0B31CE637C59EB229969F5 /* Pods-XTModuleBLECardReader.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
@@ -433,10 +430,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EDCFC820C65906C89CBD71D5 /* Pods-XTModuleBLECardReader.release.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
