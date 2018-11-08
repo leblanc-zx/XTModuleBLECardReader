@@ -49,11 +49,13 @@ s.vendored_libraries = 'XTModuleBLECardReader/LocalDependency/**.a'
   s.subspec 'BLECardReader' do |bleCardReader|
   bleCardReader.source_files = 'XTModuleBLECardReader/BLECardReader/*'
   bleCardReader.dependency 'XTModuleBLECardReader/Models'
+  bleCardReader.dependency 'XTModuleBLECardReader/LocalDependency'
   end
 
   s.subspec 'BLECardReaderMinimalis' do |bleCardReaderMinimalis|
   bleCardReaderMinimalis.source_files = 'XTModuleBLECardReader/BLECardReaderMinimalis/*'
   bleCardReaderMinimalis.dependency 'XTModuleBLECardReader/BLECardReader'
+  bleCardReaderMinimalis.dependency 'XTModuleBLECardReader/Socket'
   end
   
   # s.resource_bundles = {
