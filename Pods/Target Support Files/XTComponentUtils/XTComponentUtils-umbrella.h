@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "XTComponentUtils.h"
 #import "NSString+XTEncryption.h"
 #import "NSString+XTHash.h"
 #import "XTPriceGroupInfo.h"

@@ -123,6 +123,5 @@
  */
 + (NSData *)UTF8DataWithString:(NSString *)string;
 
-+ (NSData *)getDataLen:(NSString *)str;
 
 @end

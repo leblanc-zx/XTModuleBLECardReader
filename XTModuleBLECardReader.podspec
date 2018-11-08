@@ -64,5 +64,5 @@ s.vendored_libraries = 'XTModuleBLECardReader/LocalDependency/**.a'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'XTComponentSocket', '~> 1.0.4'
+  s.dependency 'XTComponentSocket', '~> 1.0.5'
 end

@@ -35,8 +35,9 @@
  @return 解密结果为UTF8String
  */
 + (NSString *)aesDecryptWithData:(NSData *)data key:(NSString *)key iv:(NSString *)iv {
-    NSData *pswData = [XTUtils UTF8DataWithString:key];
-    NSData *aesDecryptData = [NSString aesDecryptWithData:data dataKey:key dataIv:iv];
+    NSData *keyData = [XTUtils UTF8DataWithString:key];
+    NSData *ivData = [XTUtils UTF8DataWithString:iv];
+    NSData *aesDecryptData = [NSString aesDecryptWithData:data dataKey:keyData dataIv:ivData];
     return [XTUtils UTF8StringWithData:aesDecryptData];
 }
 

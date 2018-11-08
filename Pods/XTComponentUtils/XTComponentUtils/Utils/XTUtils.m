@@ -343,16 +343,4 @@
     return [string dataUsingEncoding:NSUTF8StringEncoding];
 }
 
-+ (NSData *)getDataLen:(NSString *)str {
-    int length = (int)str.length;
-    Byte *len = malloc(4);
-    len[3] = (Byte)(length >> 24);
-    len[2] = (Byte)(length >> 16);
-    len[1] = (Byte)(length >> 8);
-    len[0] = (Byte)(length >> 0);
-    NSData *data1 = [NSData dataWithBytes:len length:4];
-    NSData *data2 = [XTUtils dataWithLong:length length:4];
-    return data1;
-}
-
 @end

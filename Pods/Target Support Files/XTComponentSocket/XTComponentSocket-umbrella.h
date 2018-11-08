@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "XTComponentSocket.h"
 #import "XTAsyncSocket.h"
 #import "XTAsyncUdpSocket.h"
 #import "XTSocketManager.h"

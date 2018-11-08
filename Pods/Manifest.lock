@@ -1,25 +1,25 @@
 PODS:
-  - XTComponentSocket (1.0.3):
-    - XTComponentSocket/LocalDependency (= 1.0.3)
-    - XTComponentSocket/Socket (= 1.0.3)
-    - XTComponentUtils (~> 1.0.9)
-  - XTComponentSocket/LocalDependency (1.0.3):
-    - XTComponentUtils (~> 1.0.9)
-  - XTComponentSocket/Socket (1.0.3):
+  - XTComponentSocket (1.0.5):
+    - XTComponentSocket/LocalDependency (= 1.0.5)
+    - XTComponentSocket/Socket (= 1.0.5)
+    - XTComponentUtils (~> 1.1.1)
+  - XTComponentSocket/LocalDependency (1.0.5):
+    - XTComponentUtils (~> 1.1.1)
+  - XTComponentSocket/Socket (1.0.5):
     - XTComponentSocket/LocalDependency
-    - XTComponentUtils (~> 1.0.9)
-  - XTComponentUtils (1.0.9):
-    - XTComponentUtils/LocalDependency (= 1.0.9)
-    - XTComponentUtils/Models (= 1.0.9)
-    - XTComponentUtils/Utils (= 1.0.9)
-  - XTComponentUtils/LocalDependency (1.0.9)
-  - XTComponentUtils/Models (1.0.9)
-  - XTComponentUtils/Utils (1.0.9):
+    - XTComponentUtils (~> 1.1.1)
+  - XTComponentUtils (1.1.1):
+    - XTComponentUtils/LocalDependency (= 1.1.1)
+    - XTComponentUtils/Models (= 1.1.1)
+    - XTComponentUtils/Utils (= 1.1.1)
+  - XTComponentUtils/LocalDependency (1.1.1)
+  - XTComponentUtils/Models (1.1.1)
+  - XTComponentUtils/Utils (1.1.1):
     - XTComponentUtils/LocalDependency
     - XTComponentUtils/Models
 
 DEPENDENCIES:
-  - XTComponentSocket (~> 1.0.3)
+  - XTComponentSocket (~> 1.0.5)
 
 SPEC REPOS:
   https://github.com/leblanc-zx/ZXSpecs.git:
@@ -27,9 +27,9 @@ SPEC REPOS:
     - XTComponentUtils
 
 SPEC CHECKSUMS:
-  XTComponentSocket: a9c8893b00a363fb97ffbdb1b2bc987074a6ae9b
-  XTComponentUtils: d09598a26a5bb2af85535771fed455083ed34af3
+  XTComponentSocket: 83e0d49e342272f5f8bfa54844aff9b1153720f2
+  XTComponentUtils: b667ec3a7902aa1086564cdd02ad7cba5641cc75
 
-PODFILE CHECKSUM: 95605832f684cf59a1f1412c9943d762ddb9812a
+PODFILE CHECKSUM: 615dd97dd087dd50903b3b799fc2335965625191
 
 COCOAPODS: 1.5.0
